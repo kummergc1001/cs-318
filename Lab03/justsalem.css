@@ -1,8 +1,38 @@
-h1{background-color: darkkhaki;
-font-family: monospace;
-font-size: large;}
-h2{color: goldenrod;
-font-weight: 100;}
-
-
-
+h1{
+    background-color:goldenrod;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xxx-large; 
+}
+h2{
+text-align: right;
+margin: 1rem 2rem;
+color: darkslategray;
+}
+h3{font-size:medium;
+color: darkgoldenrod;
+padding: 1rem;
+}
+nav{
+font-family:Arial, Helvetica, sans-serif;
+font-weight: 1000;
+background-color: darkgoldenrod;
+}
+header{
+    background-color:lightgrey;
+}
+main{
+    background-color: lightgoldenrodyellow;
+    margin: 1rem;
+}
+p{
+    color: rgb(112, 83, 10);
+    font-size: large;
+    font-weight:bold;
+}
+ul+ol{
+ text-align: left;
+}
+img{
+    padding: 1rem 2rem;
+background-color: darkgoldenrod;
+}
