@@ -1,0 +1,14 @@
+Body{
+    background-color: 6,6,56;
+    color: 255,255,255;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+header{
+    background-color: 25,64,100;
+    padding: 2rem;
+}
+header a{
+    color: 66,211,221;
+}
+header{text-align: center;}
