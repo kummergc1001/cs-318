@@ -1,0 +1,7 @@
+html{background-image:url(images/honeycomb.webp);
+    background-position: top; 
+    background-size: 70rem;
+    background-repeat: repeat-x;}
+header>nav>a{background-color:hsl(41, 100%, 94%);color: hsl(39, 100%, 13%); display: inline; padding: 1rem; border: 3px solid hsl(39, 100%, 42%);}
+header>nav>a:hover{background-color: hsl(40, 31%, 72%);color: #fff;border: 3px solid hsl(39, 100%, 42%);}
+main{background-color: hsl(41, 100%, 94%); margin: 1rem auto; padding: 1rem;max-width: 60%;}
