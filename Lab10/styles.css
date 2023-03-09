@@ -1,3 +1,10 @@
 html{background-image: url(images/tapcloseup.jpg);
-    background-size:auto;}
-header{background-color: rgb(#6a6e49d1);padding: 2rem;}
+    background-size:auto; font-family: Arial, Helvetica, sans-serif;}
+header{background-color: #5b5e40cc; display: flex; justify-content: space-between; align-items: center; padding: 1rem;}
+header>nav>a{background-color: #9ba06a; font-size: larger; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 1rem; padding: 1rem;color: black;border: 3px solid #9ba06a;}
+header>nav>a:hover{background-color: #8a8487b4;border: 3px solid #9ba06a;}
+section{background-color: #8a8487b4;margin: 1rem;}
+.ourstory{padding: 1rem;}
+.menu{padding: 1rem;}
+.contactus{padding: 1rem;}
+.menu>dl>dt{font-weight: bold;}
