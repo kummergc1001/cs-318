@@ -1,0 +1,17 @@
+h1>img{width: 30rem;}
+html{font-family: Arial, Helvetica, sans-serif;}
+head{flex-wrap: wrap;}
+header{display: flex; justify-content: space-between; align-items: center; padding: 1rem;}
+header>nav>a{font-size: large; color: black; margin: 1rem;}
+header>nav>a:hover{color: gray;}
+.aboutme{padding: 1rem;background-color: rgb(209, 186, 161); border: 1rem rgb(0, 83, 119);}
+.portfolio{padding: 1rem;background-color: rgb(96, 108, 56);}
+.contact{padding: 1rem;background-color: rgb(209, 186, 161);}
+body>section{margin: 1rem;}
+.portfolio>a{background-color: rgba(209, 186, 161, 0.785);padding: 1rem; border: 1rem rgb(37, 37, 37);}
+.aboutme>h2{color: rgb(0, 83, 119);}
+.contact>h2{color: rgb(0, 83, 119);}
+.contact,.aboutme{border: 3px solid rgb(96, 108, 56);}
+@media{
+   header{display:grid;}
+}
