@@ -43,7 +43,7 @@ section span{ position: absolute;
 section>h2{position: relative;}
 .accordion{cursor: pointer;}
 article{display: none;}
-article .show{display: block;}/*Delete the space between article and .show*/
+article.show{display: block;}
 section span{transform: rotate(180deg);}
 span.rotate{transform: rotate(0);}
 .sidelink{background-color: #27213C;
@@ -57,7 +57,7 @@ span.rotate{transform: rotate(0);}
     right: -5rem;}
 section>h2{border-bottom: 2rem solid #e2512d;}
 @media (min-width:1000px){
-    .animal-background{height: 100 rem;/*Delete the space between 100 and rem*/
+    .animal-background{height: 100rem;
         top: -25%;}
     section>h2{padding: 23rem 0;
         font-size: 3rem;
@@ -66,7 +66,8 @@ section>h2{border-bottom: 2rem solid #e2512d;}
         font-size: 4rem;
         top: 26rem;
         left: 48%;}
-    nav>a{position: absolute;}/*This should be nav not nav>a. Also need top:1rem; and left: 1rem;*/
+    nav{position: absolute;
+        top:1rem;
+        left:1rem;}
     article{max-width: 60rem;
         margin: 0 auto;}
-}
